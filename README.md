@@ -1,2 +1,12 @@
-# test_game_labyrinth_escape
-This is a test game for 100 days coding: Your goal today is to build a "Chose your own adventure game". Using what you have learnt in the lessons today you will be building a very simple version of this type of text game.
+🧩 Labyrinth Escape: A Text-Based Adventure Game
+Labyrinth Escape is an interactive text-based game built with Python, modeled after a dungeon crawler, full of humor, traps, enemies, and unexpected twists.
+You wake up in a mysterious labyrinth and must make choices, fight creatures, and survive — using only text commands.
+
+🔧 Learn by Playing:
+This project is perfect for beginners who have just learned:
+
+- if / elif / else logic
+- while loops
+- boolean conditions
+- variables and comparisons
+- lists and user input processing (input())
