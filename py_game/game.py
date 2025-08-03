@@ -79,7 +79,7 @@ print("- go left")
 print("- go forward")
 
 while not enemy_dead:
-    user_input = str(input(f"{user_name} what will you do?: ")).lower()
+    user_input = str(input(f"!->> {user_name} what will you do?: ")).lower()
     if user_input == "listen":
         if not environment_listed:
             environment_listed = True
@@ -163,6 +163,7 @@ while not enemy_dead:
                 golem_lives = 0
                 print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
                 print(f"!->> Congrats {user_name}, you defit the old guardian golem, now you can move forward and try to escape the maze")
+                print("▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼\n")
             elif combat_actions == "strike left" or combat_actions == "left" or combat_actions == "hit left":
                 golem_lives -= 1
                 print(f"! >> You hit the golem really hard.\nGolem live = {golem_lives}")
@@ -190,7 +191,6 @@ while not enemy_dead:
 #3. Maze level 2
 print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
 print("\033[1mScene 3: The Room of Suspicious Choices\033[0m\n")
-print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
 print("You step into a new chamber… and instantly regret it.")
 print("The air here smells like mystery, old socks, and possibly cheese.")
 print("Before you stand three doors, each one radiating 'Pick me!' energy like a bad dating app bio.")
@@ -208,7 +208,7 @@ print("[3] 'The red door leads to death.'")
 print("\nYou sigh. Logic puzzles. Your old enemy.")
 correct_door = False
 while not correct_door:
-    print("\n\033[1mPossible actions:\033[0m")
+    print("\033[1mPossible actions:\033[0m")
     print("- Door 1") #Red door - 'The door to freedom is not green.'
     print("- Door 2") #Blue door - 'This door is a lie.' <Correct>
     print("- Door 3") #Green door - 'The red door leads to death'.
